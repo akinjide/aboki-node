@@ -1,0 +1,39 @@
+  Examples:
+
+    o Convert usd to ngn
+
+      The following convert command converts a currency to a specified currency:
+
+        aboki convert --ouput json 500 usd ngn
+
+      Output:
+
+        Conversion Successful
+        SEE HOW MUCH YOU GET IF YOU SELL
+        {
+          "ngn": 202500.0,
+          "rate": 405.0,
+          "usd": 500.0
+        }
+
+    o Retrieve usd rate
+
+      The following rate command retrieves currency current rate:
+
+        aboki rate --output json usd
+
+      Output:
+
+        USD Exchange Rate
+        {
+          "usd": 387.0
+        }
+
+Written by Akinjide Bankole <https://www.akinjide.me/>. Like the software? Star
+on Github <https://github.com/akinjide/aboki-node>
+Or... Send a tip to Akinjide: 17AcFdn8kTpGw1R34MC5U5SyZHrMbZK4Sq
+       ______       ______ _____
+______ ___  /__________  /____(_)
+_  __ `/_  __ \  __ \_  //_/_  /
+/ /_/ /_  /_/ / /_/ /  ,<  _  /
+\__,_/ /_.___/\____//_/|_| /_/
