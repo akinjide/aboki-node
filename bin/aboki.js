@@ -383,7 +383,7 @@ Aboki.prototype.test = function() {
  * Handle programmer input, and do stuffs.
  */
 
-var aboki = new Aboki('1.0.0')
+var aboki = new Aboki('1.0.1')
 
 program
   .version(aboki.version)
